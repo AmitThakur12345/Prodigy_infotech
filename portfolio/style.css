@@ -1,0 +1,271 @@
+body { 
+
+    Font-family: Arial, sans-serif; 
+
+    Margin: 0; 
+
+    Padding: 0; 
+
+    Background-color: #f0f0f0; 
+
+} 
+
+ 
+
+Header { 
+
+    Background-color: #333; 
+
+    Color: white; 
+
+    Padding: 10px 0; 
+
+    Position: fixed; 
+
+    Width: 100%; 
+
+    Top: 0; 
+
+    z-index: 1000; 
+
+} 
+
+ 
+
+Nav ul { 
+
+    List-style: none; 
+
+    Display: flex; 
+
+    Justify-content: center; 
+
+    Margin: 0; 
+
+    Padding: 0; 
+
+} 
+
+ 
+
+Nav ul li { 
+
+    Margin: 0 15px; 
+
+} 
+
+ 
+
+Nav ul li a { 
+
+    Color: white; 
+
+    Text-decoration: none; 
+
+    Font-size: 18px; 
+
+    Padding: 10px 20px; 
+
+    Transition: color 0.3s, background-color 0.3s; 
+
+} 
+
+ 
+
+Nav ul li a:hover { 
+
+    Background-color: #555; 
+
+    Color: #fff; 
+
+    Border-radius: 4px; 
+
+} 
+
+ 
+
+.home-section { 
+
+    Background: #6a11cb; 
+
+    Background: linear-gradient(to right, #2575fc, #6a11cb); 
+
+    Color: white; 
+
+    Text-align: center; 
+
+    Padding: 100px 20px; 
+
+    Margin-top: 60px; 
+
+} 
+
+ 
+
+.profile-photo { 
+
+    Width: 150px; 
+
+    Height: 150px; 
+
+    Border-radius: 50%; 
+
+    Margin-top: 20px; 
+
+} 
+
+ 
+
+.about-section, .skills-section, .projects-section, .contact-section { 
+
+    Background: white; 
+
+    Text-align: center; 
+
+    Padding: 100px 20px; 
+
+} 
+
+ 
+
+.skills-list { 
+
+    List-style: none; 
+
+    Padding: 0; 
+
+} 
+
+ 
+
+.skills-list li { 
+
+    Font-size: 18px; 
+
+    Margin: 5px 0; 
+
+} 
+
+ 
+
+.project-list { 
+
+    Display: flex; 
+
+    Flex-wrap: wrap; 
+
+    Justify-content: center; 
+
+} 
+
+ 
+
+.project-item { 
+
+    Background: #f9f9f9; 
+
+    Border: 1px solid #ddd; 
+
+    Border-radius: 8px; 
+
+    Margin: 10px; 
+
+    Padding: 20px; 
+
+    Width: 250px; 
+
+    Text-align: left; 
+
+} 
+
+ 
+
+.project-item h3 { 
+
+    Margin-top: 0; 
+
+} 
+
+ 
+
+#contact-form { 
+
+    Display: flex; 
+
+    Flex-direction: column; 
+
+    Align-items: center; 
+
+} 
+
+ 
+
+#contact-form input, #contact-form textarea { 
+
+    Margin-bottom: 10px; 
+
+    Padding: 10px; 
+
+    Width: 80%; 
+
+    Max-width: 400px; 
+
+} 
+
+ 
+
+#contact-form button { 
+
+    Padding: 10px 20px; 
+
+    Background-color: #333; 
+
+    Color: white; 
+
+    Border: none; 
+
+    Cursor: pointer; 
+
+    Border-radius: 4px; 
+
+} 
+
+ 
+
+.contact-info { 
+
+    Margin-top: 20px; 
+
+} 
+
+ 
+
+.contact-info p { 
+
+    Font-size: 18px; 
+
+} 
+
+ 
+
+.contact-info a { 
+
+    Color: #333; 
+
+    Text-decoration: none; 
+
+} 
+
+ 
+
+Footer { 
+
+    Background: #333; 
+
+    Color: white; 
+
+    Text-align: center; 
+
+    Padding: 10px 0; 
+
+} 
