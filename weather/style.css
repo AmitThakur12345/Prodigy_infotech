@@ -1,0 +1,69 @@
+body { 
+
+    Font-family: Arial, sans-serif; 
+
+    Display: flex; 
+
+    Justify-content: center; 
+
+    Align-items: center; 
+
+    Height: 100vh; 
+
+    Margin: 0; 
+
+    Background: #f0f0f0; 
+
+} 
+
+ 
+
+.container { 
+
+    Text-align: center; 
+
+    Padding: 20px; 
+
+    Background: white; 
+
+    Border-radius: 8px; 
+
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+} 
+
+ 
+
+.input-container { 
+
+    Margin-bottom: 20px; 
+
+} 
+
+ 
+
+#location-input { 
+
+    Padding: 10px; 
+
+    Border: 1px solid #ccc; 
+
+    Border-radius: 4px; 
+
+} 
+
+ 
+
+#weather-display { 
+
+    Margin-top: 20px; 
+
+} 
+
+ 
+
+.weather-display p { 
+
+    Margin: 5px 0; 
+
+} 
